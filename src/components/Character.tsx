@@ -1,4 +1,4 @@
-import { isBreakStatement } from "typescript";
+import { StyledDiv } from "../styles/Character.style";
 
 interface CharProps {
   name: string;
@@ -33,10 +33,18 @@ const Character: React.FC<Props> = (props: Props) => {
 
   return (
     <div>
-      <div>
-        <img src={props.chars[0].name} height="150px" />
-        <p></p>
-      </div>
+      <StyledDiv>
+        <img src={charsToPlay[0].img} height="150px" />
+        <p>{charsToPlay[0].name}</p>
+      </StyledDiv>
+      <StyledDiv>
+        <img src={charsToPlay[1].img} height="150px" />
+        <p>{charsToPlay[1].name}</p>
+      </StyledDiv>
+      <StyledDiv>
+        <img src={charsToPlay[2].img} height="150px" />
+        <p>{charsToPlay[2].name}</p>
+      </StyledDiv>
     </div>
   );
 };
