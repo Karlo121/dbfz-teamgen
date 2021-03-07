@@ -1,7 +1,7 @@
 import { StyledDiv } from '../styles/Character.style';
 import { StyledButton } from '../styles/Material.style';
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
+import { useState } from 'react';
 
 interface CharProps {
   name: string;
@@ -29,6 +29,7 @@ const Character: React.FC<Props> = (props: Props) => {
     charsToPlay = [];
     while (charsToPlay.length < 3) {
       addElement();
+      console.log(charsToPlay);
     }
   };
 
@@ -43,11 +44,12 @@ const Character: React.FC<Props> = (props: Props) => {
       alignItems='center'
       justify='space-evenly'
     >
-      <Grid item xs={12} sm={12} alignItems='stretch'>
+      <Grid item xs={12} sm={12}>
         <StyledButton>Generate</StyledButton>
+        <button onClick={() => populateArray()}> yo </button>
       </Grid>
 
-      <Grid container xs={12} direction='row-reverse' justify='space-between'>
+      <Grid container direction='row-reverse' justify='space-between'>
         <Grid item xs={4} md={4}>
           <StyledDiv>
             <img src={charsToPlay[0].img} height='150px' alt='firstChar' />
