@@ -1,4 +1,5 @@
-import { StyledDiv } from "../styles/Character.style";
+import { StyledDiv } from '../styles/Character.style';
+import Grid from '@material-ui/core/Grid';
 
 interface CharProps {
   name: string;
@@ -18,7 +19,7 @@ const Character: React.FC<Props> = (props: Props) => {
     if (!charsToPlay.includes(randomElement)) {
       charsToPlay.push(randomElement);
     } else {
-      console.log("already in array");
+      console.log('already in array');
     }
   };
 
@@ -32,20 +33,26 @@ const Character: React.FC<Props> = (props: Props) => {
   console.log(charsToPlay);
 
   return (
-    <div>
+    <Grid
+      container
+      spacing={2}
+      direction='row-reverse'
+      justify='space-evenly'
+      alignItems='center'
+    >
       <StyledDiv>
-        <img src={charsToPlay[0].img} height="150px" />
+        <img src={charsToPlay[0].img} height='150px' alt='firstChar' />
         <p>{charsToPlay[0].name}</p>
       </StyledDiv>
       <StyledDiv>
-        <img src={charsToPlay[1].img} height="150px" />
+        <img src={charsToPlay[1].img} height='150px' alt='secondChar' />
         <p>{charsToPlay[1].name}</p>
       </StyledDiv>
       <StyledDiv>
-        <img src={charsToPlay[2].img} height="150px" />
+        <img src={charsToPlay[2].img} height='150px' alt='thirdChar' />
         <p>{charsToPlay[2].name}</p>
       </StyledDiv>
-    </div>
+    </Grid>
   );
 };
 
