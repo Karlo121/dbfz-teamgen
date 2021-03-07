@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/dbfz-teamgen/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/dbfz-teamgen/static/js/main.e318c466.chunk.js",
-    "main.js.map": "/dbfz-teamgen/static/js/main.e318c466.chunk.js.map",
-    "runtime-main.js": "/dbfz-teamgen/static/js/runtime-main.54922dd6.js",
-    "runtime-main.js.map": "/dbfz-teamgen/static/js/runtime-main.54922dd6.js.map",
-    "static/js/2.191d5c98.chunk.js": "/dbfz-teamgen/static/js/2.191d5c98.chunk.js",
-    "static/js/2.191d5c98.chunk.js.map": "/dbfz-teamgen/static/js/2.191d5c98.chunk.js.map",
-    "static/js/3.42bc56e7.chunk.js": "/dbfz-teamgen/static/js/3.42bc56e7.chunk.js",
-    "static/js/3.42bc56e7.chunk.js.map": "/dbfz-teamgen/static/js/3.42bc56e7.chunk.js.map",
+    "main.js": "/dbfz-teamgen/static/js/main.b3ee081f.chunk.js",
+    "main.js.map": "/dbfz-teamgen/static/js/main.b3ee081f.chunk.js.map",
+    "runtime-main.js": "/dbfz-teamgen/static/js/runtime-main.69a2ea63.js",
+    "runtime-main.js.map": "/dbfz-teamgen/static/js/runtime-main.69a2ea63.js.map",
+    "static/js/2.550b2009.chunk.js": "/dbfz-teamgen/static/js/2.550b2009.chunk.js",
+    "static/js/2.550b2009.chunk.js.map": "/dbfz-teamgen/static/js/2.550b2009.chunk.js.map",
+    "static/js/3.09ec1e83.chunk.js": "/dbfz-teamgen/static/js/3.09ec1e83.chunk.js",
+    "static/js/3.09ec1e83.chunk.js.map": "/dbfz-teamgen/static/js/3.09ec1e83.chunk.js.map",
     "index.html": "/dbfz-teamgen/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/dbfz-teamgen/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.191d5c98.chunk.js.LICENSE.txt": "/dbfz-teamgen/static/js/2.191d5c98.chunk.js.LICENSE.txt",
+    "static/js/2.550b2009.chunk.js.LICENSE.txt": "/dbfz-teamgen/static/js/2.550b2009.chunk.js.LICENSE.txt",
     "static/media/adultgohan.0c957ed8.jpg": "/dbfz-teamgen/static/media/adultgohan.0c957ed8.jpg",
     "static/media/android16.831eb2b9.jpg": "/dbfz-teamgen/static/media/android16.831eb2b9.jpg",
     "static/media/android17.0f91f2ee.jpg": "/dbfz-teamgen/static/media/android17.0f91f2ee.jpg",
@@ -48,9 +48,9 @@
     "static/media/zamasu.34879f75.png": "/dbfz-teamgen/static/media/zamasu.34879f75.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54922dd6.js",
-    "static/js/2.191d5c98.chunk.js",
+    "static/js/runtime-main.69a2ea63.js",
+    "static/js/2.550b2009.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.e318c466.chunk.js"
+    "static/js/main.b3ee081f.chunk.js"
   ]
 }
