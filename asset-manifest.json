@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dbfz-teamgen/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/dbfz-teamgen/static/js/main.b3ee081f.chunk.js",
-    "main.js.map": "/dbfz-teamgen/static/js/main.b3ee081f.chunk.js.map",
+    "main.js": "/dbfz-teamgen/static/js/main.5a08536d.chunk.js",
+    "main.js.map": "/dbfz-teamgen/static/js/main.5a08536d.chunk.js.map",
     "runtime-main.js": "/dbfz-teamgen/static/js/runtime-main.69a2ea63.js",
     "runtime-main.js.map": "/dbfz-teamgen/static/js/runtime-main.69a2ea63.js.map",
     "static/js/2.550b2009.chunk.js": "/dbfz-teamgen/static/js/2.550b2009.chunk.js",
@@ -24,6 +24,7 @@
     "static/media/cooler.92d09d93.jpg": "/dbfz-teamgen/static/media/cooler.92d09d93.jpg",
     "static/media/frieza.f098e763.jpg": "/dbfz-teamgen/static/media/frieza.f098e763.jpg",
     "static/media/ginyu.ee09ad5c.jpg": "/dbfz-teamgen/static/media/ginyu.ee09ad5c.jpg",
+    "static/media/gogetass4.9ec634cb.jpg": "/dbfz-teamgen/static/media/gogetass4.9ec634cb.jpg",
     "static/media/goku.dfccb1e8.jpg": "/dbfz-teamgen/static/media/goku.dfccb1e8.jpg",
     "static/media/gokublack.88024501.png": "/dbfz-teamgen/static/media/gokublack.88024501.png",
     "static/media/gokugt.86eca79d.png": "/dbfz-teamgen/static/media/gokugt.86eca79d.png",
@@ -51,6 +52,6 @@
     "static/js/runtime-main.69a2ea63.js",
     "static/js/2.550b2009.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.b3ee081f.chunk.js"
+    "static/js/main.5a08536d.chunk.js"
   ]
 }
