@@ -32,6 +32,7 @@ import vegito from '../img/vegito.png';
 import zamasu from '../img/zamasu.png';
 import gokuGt from '../img/gokugt.png';
 import gokuUltraInstinct from '../img/gokuultrainstinct.png';
+import gogetaSs4 from '../img/gogetass4.jpg';
 
 export const characters = [
   {
@@ -177,5 +178,9 @@ export const characters = [
   {
     name: 'Goku Ultra Instinct',
     img: gokuUltraInstinct,
+  },
+  {
+    name: 'Gogeta SS4',
+    img: gogetaSs4,
   },
 ];
